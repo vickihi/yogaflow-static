@@ -1,0 +1,39 @@
+/*
+Theme Name: Yoga Flow Website
+Author: Weiwei
+Description:  A custom private WordPress theme for a modern, minimalist yoga website.
+Version: 1.0
+License: Private
+Tags: yoga, fitness, wellness, responsive
+*/
+
+/* ====================================================================== */
+/*              IMPORTING MODULAR CSS FILES FROM /css/ FOLDER            */
+/* ====================================================================== */
+
+/* Core Styles */
+@import url('/wp-content/themes/projectyogaclient/css/variables.css');
+@import url('/wp-content/themes/projectyogaclient/css/global.css');
+@import url('/wp-content/themes/projectyogaclient/css/global_header.css');
+@import url('/wp-content/themes/projectyogaclient/css/global_footer.css');
+@import url('/wp-content/themes/projectyogaclient/css/global_sidebar.css');
+
+/* Front Page Sections (FP) */
+@import url('/wp-content/themes/projectyogaclient/css/fp_hero-banner.css');
+@import url('/wp-content/themes/projectyogaclient/css/fp_about.css');
+@import url('/wp-content/themes/projectyogaclient/css/fp_booking.css');
+@import url('/wp-content/themes/projectyogaclient/css/fp_class.css');
+@import url('/wp-content/themes/projectyogaclient/css/fp_blog.css');
+@import url('/wp-content/themes/projectyogaclient/css/fp_subscribe.css');
+
+/* Single Pages (SP) */
+@import url('/wp-content/themes/projectyogaclient/css/sp_single-class.css');
+@import url('/wp-content/themes/projectyogaclient/css/sp_single-blog.css');
+
+/* Archive Pages (AP) */
+@import url('/wp-content/themes/projectyogaclient/css/ap_archive-blog.css');
+@import url('/wp-content/themes/projectyogaclient/css/ap_archive-classes.css');
+
+/* Secondary Pages */
+@import url('/wp-content/themes/projectyogaclient/css/page_about.css');
+@import url('/wp-content/themes/projectyogaclient/css/page_contact.css');
